@@ -11,16 +11,13 @@
     $(function(){
     $(".increment").click(function(){
       var count = parseInt($("~ .count", this).text());
-
-      if($(this).hasClass("up1")) {
+      if($(this).hasClass("btn btn-success")) {
         var count1 = count1 + 1
          $("~ .count", this).text(count);
-      if($(this).hasClass("up2")) {
+      if($(this).hasClass("btn btn-danger")) {
         var count2 = count2 + 1
          $("~ .count", this).text(count);
-
       $(this).parent().addClass("bump");
-
       setTimeout(function(){
         $(this).parent().removeClass("bump");    
       }, 400);
@@ -60,6 +57,7 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
       <div class="container px-5">
         <img src="https://raw.githubusercontent.com/qpgabriel/lasalle.cscw.2021.1.av2/master/gabriel-rocha/prot.png" class="d-block mx-lg-auto img-fluid" alt="Example image" width="700" height="500" loading="lazy">
       </div>
+      </br>
       </div>
       <div class="bg-dark text-secondary px-4 py-5 text-center">
       <div class="py-5">
@@ -69,16 +67,14 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
           <button type="button" class="btn btn-success">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
                   <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"></path>
-              </svg>
-              Upvote<div class="count1">0</div>
+              </svg> Upvote
           </button>
         </div>
         <div class="increment up2">
           <button type="button" class="btn btn-danger">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
                 <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"></path>
-              </svg>
-              Downvote<div class="count2">0</div>
+              </svg> Downvote
           </button>
         </div>
        </div>
