@@ -1,0 +1,63 @@
+#nav-bar
+{
+    position:sticky;
+    top: 0;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding:0 !important;
+}
+
+.navbar-nav
+{
+    padding:10px 0;
+}
+
+
+/* ============================Setor do banner=====================================*/
+
+
+.titulo-pagina{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:20px;
+}
+#descricao
+{
+    font-size:20px;
+    font-weight: 300px;
+}
+
+#title-artigo 
+{
+  font-size: 40px;
+    font-weight: 600;
+    margin-top:20px;
+}
+.main-article
+{
+    font-size:20px;
+    font-weight: 300px;
+}
+
+#roda-pre
+{
+    margin-top:20px;
+}
+
+
+#chamada-itens
+{
+    margin-top:20px;
+    font-size:40px;
+    font-weight: 300px;
+
+}
+
+#lista-itens
+{
+font-size:20px;
+    font-weight: 300px;
+}
+
