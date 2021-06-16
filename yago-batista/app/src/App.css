@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  padding: 15px;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+ul {
+  padding: 24px;
+  text-align: left;
+}
+p {
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    width: 50%;
+  }
+}
