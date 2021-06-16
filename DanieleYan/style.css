@@ -3,9 +3,15 @@
     position:sticky;
     top: 0;
 }
+#nav-bar :hover
+{
+    color:white;
+    -webkit-transition-duration: 0.5s; 
+
+}
 .navbar
 {
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right, #44abf0, #2fa7df);
     padding:0 !important;
 }
 
